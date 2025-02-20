@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html {
+  scrollbar-color: red;
+}
+
+.ghostcard {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 30vw;
+  height: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ghost-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ghostcard p {
+  display: inline;
+}
+
+.abilities-container {
+  overflow: auto;
+  height: 80px;
+  padding-top: 20px;
+  border-radius: 30px;
+}
+
+img {
+  height: 20px;
+  margin: 0px 5px 0px 15px;
+}
+
+h3 {
+  font-family: 'October Crow', sans-serif;
+  font-size: 2em;
+}
+
+input {
+  margin: 20px 0px 20px 40px;
+}
