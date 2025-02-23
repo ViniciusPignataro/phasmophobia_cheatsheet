@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import GhostCard from './components/ghostCard.tsx';
 import ghosts from './data/ghostData.ts';

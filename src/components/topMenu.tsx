@@ -18,6 +18,7 @@ function Menu() {
                 {teste3('Spirit Orb')}
                 {teste3('D.O.T.S')}
                 {teste3('Ultraviolet')}
+                {teste3('Writing')}
 
             </section>
         </>
