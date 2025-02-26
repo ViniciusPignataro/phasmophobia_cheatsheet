@@ -1,5 +1,3 @@
-import React from "react";
-
 interface GhostCardProps {
   key: number;
   name: string;
@@ -17,6 +15,7 @@ function GhostCard({ name, evidences, speed, ability }: GhostCardProps) {
   function printArray(item: string, index: number) {
     return (<p key={index}> <img src={"assets/img/"+ item +".png"} />{item} </p>)
   }
+  
   return (
     <>
       <div className="ghostcard">
